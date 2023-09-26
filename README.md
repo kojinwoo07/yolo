@@ -19,10 +19,10 @@ Creating YOLO data file in the custome_data
 !sed -i 's/OPENCV=0/OPENCV=1/' Makefile
 !sed -i 's/GPU=0/GPU=1/' Makefile
 !sed -i 's/CUDNN=0/CUDNN=1/' Makefile
-#Darknet 프레임워크의 루트 디렉토리에 있는 Makefile을 가리키는 코드
+# Darknet 프레임워크의 루트 디렉토리에 있는 Makefile을 가리키는 코드
 "/content/darknet/Makefile"
 
-#현재 디렉토리에 있는 Makefile을 사용하여 프로젝트를 빌드
+# 현재 디렉토리에 있는 Makefile을 사용하여 프로젝트를 빌드
 !make
 
 # 미리 학습된 가중치 모델 다운로드
