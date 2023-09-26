@@ -3,11 +3,11 @@
 !nvidia-smi  
 # 구글 드라이브의 파일을 저장하고 불러오기 위한 접근성 할당
 %cd /content/gdrive/MyDrive
-Creating Image Directory  # image 폴더를 만들어주어서 image.jpg와 image.txt의 파일을 넣어줍니다.
-Creating Custom.names file # labeling 한 class의 이름을 한 줄 씩 작성해줍니다. 
+Creating Image Directory 
+Creating Custom.names file 
 Creating Train and Text files
 Creating Backup directory
-Creating YOLO data file in the custome_data  #train과 test 데이터셋의 정보를 포함하고 있습니다.
+Creating YOLO data file in the custome_data  
 # !git clone 명령어를 통해 dark network을 다운로드 하고 생성해줍니다.
 !git clone https://github.com/AlexeyAB/darknet
 # 현재 작업중인 directory를 darknet으로 변경
